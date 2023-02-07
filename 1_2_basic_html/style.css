@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   margin: 0.25em 0;
 }
 
@@ -17,4 +17,10 @@ h3 {
 
 p {
   font-size: 1em;
+}
+
+c1 {
+   font-size: 2em;
+   color:brown;
+   
 }
