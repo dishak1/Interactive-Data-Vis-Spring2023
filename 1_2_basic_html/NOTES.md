@@ -11,4 +11,5 @@ Sometimes it helps to formulate what you understood and where you got stuck in o
 
 If you find you're not able complete this week's assignment, reflecting on where you are getting stuck here will help you get full credit for this week's tutorial
 
+I tried to create CLASS attribute in basic_html, and tried to edit color attribute using that new class; however, css file is not being linked to the html file. 
 ------------
