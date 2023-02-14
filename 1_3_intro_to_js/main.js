@@ -3,6 +3,13 @@ console.log('hello world');
 console.log(document)
 console.log(window)
 
+
+let count = 0;
+function increaseCount() {
+    count++;
+    document.getElementById("count").innerHTML = count.toString();
+}
+
 const input = document.getElementById("name-input")
 console.log(input)
 const updateName=() => {
@@ -63,7 +70,7 @@ consolelog(values)
 const entries = Object.entries(dataVizClass)
 console.log(entries)
 
-constat apple ='apple'
+const apple ='apple'
 if (apple === 'apple'){
     console.log("I am an apple")
 }else{
