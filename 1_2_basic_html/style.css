@@ -5,13 +5,13 @@ body {
   padding: 1em;
 }
 
-h1 {
+.h1 {
   font-size: 4em;
   margin: 0.25em 0;
 }
 
-h3 {
-  font-size: 2em;
+.h3 {
+  font-size: 1.7em;
   margin: 0.25em 0;
 }
 
@@ -19,8 +19,18 @@ p {
   font-size: 1em;
 }
 
-c1 {
-   font-size: 2em;
+.c1 {
+   font-size: 1.4em;
    color:brown;
    
 }
+
+
+.c2{
+  font-weight:bolder
+}
+
+.c3{
+  fill:darkslateblue
+}
+
