@@ -10,6 +10,13 @@ function increaseCount() {
     document.getElementById("count").innerHTML = count.toString();
 }
 
+function storeObj() {
+    let name = document.getElementById("name-1-input").value;
+    let age = document.getElementById("age-input").value;
+    let person = {name: name, age: age};
+    console.log(person);
+}
+
 const input = document.getElementById("name-input")
 console.log(input)
 const updateName=() => {
