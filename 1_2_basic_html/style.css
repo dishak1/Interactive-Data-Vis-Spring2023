@@ -30,6 +30,10 @@ p {
   font-weight:bolder
 }
 
+tr{
+ text-align: center;
+}
+
 .c3{
   fill:darkslateblue
 }
