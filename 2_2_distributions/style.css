@@ -17,3 +17,11 @@ h3 {
 p {
   font-size: 1em;
 }
+
+.bubbles {
+  stroke-width: 2px;
+  stroke: white;
+}
+.bubbles:hover {
+  stroke: black;
+}
