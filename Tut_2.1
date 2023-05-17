@@ -1,0 +1,32 @@
+
+//generate arary of random data
+const data=d3.range(10) // d3 function that makes aam array
+    .map((d) => (
+            [ Math.floor(Math.random()*100), Math.floor(Math.random()*100) ]
+            ))
+//created dummy data that look like[x,y]
+console.log('data',data)
+
+const container = d3.select("#container").append("svg")
+                .attr("width", 500)
+                .attr("height", 500)
+                .style("overflow", "show")
+
+//break the chain for legibility
+     SVG.selectAll("circle.dot")
+ //SECOND PART-CONNECT DATA to the dom
+     .dot(data)
+ //third part
+    .join("circle")
+// fourth step
+    .attr("circle", "dot") //circle is still not visible, need to assign few more attributes
+// what are the three attributes to make circle
+// cx, cy, radius
+.attr("cx",([x,y]) => x*5)
+.attr("cy",([x,y]) => y*5)
+.attr("r",10)
+//stacked upon eachother when numeric values were added, so instead, we use a scale
+
+
+
+//BAR CHARTS
